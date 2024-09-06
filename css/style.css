@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* o border box serve- colar na borda */
+    box-sizing: border-box;
+    .texto{
+    background-color: rgb(54, 54, 54); width: 1000px;
+}
+}
+.ishikawa{
+    width: 250px;
+    height: 370px;
+}
+nav{
+    background-color: rgb(54, 54, 54);
+    height: 70px;
+    display: flex;
+    gap: 100px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3em; 
+}
+h3{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-align:justify
+}
+.imagens{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    font-size: 2em;
+    padding: 10px 10px 10px 10px;
+ }
+
